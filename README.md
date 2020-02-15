@@ -8,12 +8,12 @@ Using [PSPNet-Keras-tensorflow](https://github.com/Vladkryvoruchko/PSPNet-Keras-
 
 3. Go to the project directory, create a folder `'imgs'`(or whatever you like) and put your panorama pictures in it.
 
-4. Run `python autoCallpspnet.py imgs`, the program identifies sky/tree/building elements in the pictures and colors them differently. The recognized pictures are automaticlly saved in imgs-recognized.  
+4. Run `python autoCallpspnet.py imgs`, the program identifies sky/tree/building elements in the pictures and colors them differently. The recognized pictures are automaticlly saved in `'imgs-recognized'`.  
 
 ![origin](https://github.com/cynthiaCC/tensorflow-calculate-SVF/blob/master/imgs/01-108.971906%2C34.245881.jpg)  
 ![recognized](https://github.com/cynthiaCC/tensorflow-calculate-SVF/blob/master/imgs-recognized/01-108.971906%2C34.245881_seg.jpg)  
 
-5. Run `python PanoramicToFisheye.py imgs-recognized`. This will transfer the panorama pictures to fisheye pictures in order to calculate SVF and TVF. The fisheye pictures are automaticlly saved in imgs-fisheye.  
+5. Run `python PanoramicToFisheye.py imgs-recognized`. This will transfer the panorama pictures to fisheye pictures in order to calculate SVF and TVF. The fisheye pictures are automaticlly saved in `'imgs-fisheye'`.  
 
 ![recognized](https://github.com/cynthiaCC/tensorflow-calculate-SVF/blob/master/imgs-recognized/01-108.971906%2C34.245881_seg.jpg)  
 ![fisheye](https://github.com/cynthiaCC/tensorflow-calculate-SVF/blob/master/imgs-fisheye/01-108.971906%2C34.245881_seg.jpg)  
